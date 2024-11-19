@@ -21,6 +21,7 @@ class Dog implements Animal {
     @Override
     public void eat() {     //once we override default method from interface we lost that main content from interface
         System.out.println("Dog is eating...");
+        Animal.super.eat();
     }
 
     //we can not override static method sleep() from Animal interface
