@@ -14,7 +14,6 @@ class ClassMates{
 public class ArrayClassInstances {
     public static void main(String[] args) {
         ClassMates classMates[]=new ClassMates[3];
-
         classMates[0]=new ClassMates(1,"suraj");
         classMates[1]=new ClassMates(1,"suraj");
         classMates[2]=new ClassMates(1,"suraj");
