@@ -1,8 +1,13 @@
-//{ Driver Code Starts
+//Input: mat[][] = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 16]]
+//Output: [1, 2, 3, 4, 8, 12, 16, 15, 14, 13, 9, 5, 6, 7, 11, 10]
+//You are given a rectangular matrix mat[][] of size n x m, and your task is to return an array while traversing the matrix in spiral form.
+
+
+package GFG;//{ Driver Code Starts
 import java.io.*;
 import java.util.*;
 
-class GFG {
+class GFG02 {
     public static void main(String args[]) throws IOException {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
@@ -11,12 +16,12 @@ class GFG {
             int r = sc.nextInt();
             int c = sc.nextInt();
 
-            int matrix[][] = new int[r][c];
+            int[][] matrix = new int[r][c];
 
             for (int i = 0; i < r; i++) {
                 for (int j = 0; j < c; j++) matrix[i][j] = sc.nextInt();
             }
-            Solution ob = new Solution();
+            Solution02 ob = new Solution02();
             ArrayList<Integer> ans = ob.spirallyTraverse(matrix);
             for (Integer val : ans) System.out.print(val + " ");
             System.out.println();
@@ -25,11 +30,10 @@ class GFG {
         }
     }
 }
-// } Driver Code Ends
 
-class Solution {
+class Solution02 {
     // Function to return a list of integers denoting spiral traversal of matrix.
-    public ArrayList<Integer> spirallyTraverse(int mat[][]) {
+    public ArrayList<Integer> spirallyTraverse(int[][] mat) {
         ArrayList<Integer> result = new ArrayList<>();
         if (mat == null || mat.length == 0) {
             return result;
