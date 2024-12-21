@@ -3,7 +3,9 @@
 //You are given a rectangular matrix mat[][] of size n x m, and your task is to return an array while traversing the matrix in spiral form.
 
 
-package GFG;//{ Driver Code Starts
+package GFG;
+
+//{ Driver Code Starts
 import java.io.*;
 import java.util.*;
 
@@ -30,6 +32,7 @@ class GFG02 {
         }
     }
 }
+//Driver code ends here
 
 class Solution02 {
     // Function to return a list of integers denoting spiral traversal of matrix.
@@ -75,4 +78,5 @@ class Solution02 {
         return result;
     }
 }
+
 
