@@ -14,7 +14,7 @@ Explanation: arr[3] + arr[4] = 6 + 10 = 16.
 import java.io.*;
 import java.util.*;
 
-public class GFG06 {
+public class GFG07 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -32,7 +32,7 @@ public class GFG06 {
                 arr[i] = Integer.parseInt(tokens[i]);
             }
 
-            boolean ans = new Solution06().twoSum(arr, x);
+            boolean ans = new Solution07().twoSum(arr, x);
             System.out.println(ans ? "true" : "false");
             // System.out.println("~");
 
@@ -45,7 +45,7 @@ public class GFG06 {
 
 // User function Template for Java
 
-class Solution06 {
+class Solution07 {
     boolean twoSum(int arr[], int target) {
         HashSet<Integer> seen = new HashSet<>();
         
