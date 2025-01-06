@@ -23,7 +23,7 @@ import java.io.*;
 import java.lang.*;
 import java.util.*;
 
-public class GFG13 {
+ class GFG13 {
     public static void main(String args[]) throws IOException {
         // taking input using class Scanner
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

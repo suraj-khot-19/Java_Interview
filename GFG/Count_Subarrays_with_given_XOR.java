@@ -17,7 +17,7 @@ Explanation: The subarrays having XOR of their elements as 5 are [5] and [5, 6, 
 import java.io.*;
 import java.util.*;
 
-public class GFG14 {
+class GFG14 {
     public static void main(String args[]) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int tc = Integer.parseInt(br.readLine());

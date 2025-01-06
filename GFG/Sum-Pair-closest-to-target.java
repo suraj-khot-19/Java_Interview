@@ -22,7 +22,7 @@ Explanation: As the input array has only 1 element, return an empty array.
 import java.io.*;
 import java.util.*;
 
-public class GDG15 {
+ class GDG15 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(br.readLine());
@@ -43,7 +43,7 @@ public class GDG15 {
 
             int target = Integer.parseInt(br.readLine());
 
-            Solution15 ob = new Solution15();
+            Solution17 ob = new Solution17();
             List<Integer> res = ob.sumClosest(arr, target);
             if (res.isEmpty()) {
                 System.out.print("[]");
@@ -62,7 +62,7 @@ public class GDG15 {
 
 // User function Template for Java
 
-class Solution15 {
+class Solution17 {
     public List<Integer> sumClosest(int[] arr, int target) {
         // Handle edge case: if the array has fewer than 2 elements
         if (arr.length < 2) {

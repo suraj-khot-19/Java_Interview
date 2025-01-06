@@ -21,7 +21,7 @@ Explanation: The longest consecutive subsequence is 9, 10, 11, 12, 13, 14, 15, w
 import java.io.*;
 import java.util.*;
 
-public class GFG11 {
+class GFG12 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int t = Integer.parseInt(br.readLine());
@@ -32,7 +32,7 @@ public class GFG11 {
             String[] inputArray = input.split(" ");
             int[] arr = Arrays.stream(inputArray).mapToInt(Integer::parseInt).toArray();
 
-            Solution11 ob = new Solution11();
+            Solution12 ob = new Solution12();
             int res = ob.longestConsecutive(arr);
 
             System.out.println(res);
@@ -44,7 +44,7 @@ public class GFG11 {
 // } Driver Code Ends
 
 
-class Solution11 {
+class Solution12 {
 
     // Function to return the length of the longest subsequence of consecutive integers.
     public int longestConsecutive(int[] arr) {

@@ -22,11 +22,9 @@ Constraints:
 
 //{ Driver Code Starts
 // Initial Template for Java
-import java.io.*;
 import java.util.*;
-import java.util.stream.Collectors;
 
-public class GFG15 {
+class GFG16 {
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);
         int t = Integer.parseInt(sc.nextLine());
@@ -35,7 +33,7 @@ public class GFG15 {
             int[] arr = Arrays.stream(arr1Str).mapToInt(Integer::parseInt).toArray();
             int target = Integer.parseInt(sc.nextLine());
 
-            Solution15 ob = new Solution15();
+            Solution16 ob = new Solution16();
             int ans = ob.countTriplets(arr, target);
             System.out.println(ans);
             System.out.println("~");
@@ -44,7 +42,7 @@ public class GFG15 {
 }
 // } Driver Code Ends
 
-class Solution15 {
+class Solution16 {
     public int countTriplets(int[] arr, int target) {
         int n = arr.length;
         int count = 0;

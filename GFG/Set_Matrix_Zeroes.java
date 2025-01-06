@@ -20,7 +20,7 @@ Explanation: mat[1][1] = 0, so all elements in row 1 and column 1 are updated to
 import java.io.*;
 import java.util.*;
 
-public class GFG06 {
+ class GFG06 {
 
     public static void main(String[] args) throws Exception {
         Scanner sc = new Scanner(System.in);

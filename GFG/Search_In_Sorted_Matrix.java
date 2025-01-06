@@ -14,7 +14,7 @@ Explanation: 14 is present in the matrix, so output is true.
 import java.io.*;
 import java.util.*;
 
-class GFG05 {
+class GFG005 {
     public static void main(String args[]) throws IOException {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
@@ -32,7 +32,7 @@ class GFG05 {
             }
             int target = sc.nextInt();
 
-            Solution05 x = new Solution05();
+            Solution005 x = new Solution005();
 
             if (x.searchMatrix(matrix, target))
                 System.out.println("true");
@@ -49,7 +49,7 @@ class GFG05 {
 
 
 
-class Solution05 {
+class Solution005 {
     // Function to search a given number in row-column sorted matrix.
     public boolean searchMatrix(int[][] mat, int x) {
         int i = 0, j = mat[0].length - 1; // Start from top-right corner

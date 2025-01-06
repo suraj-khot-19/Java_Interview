@@ -14,7 +14,7 @@ Explanation: arr[3] + arr[4] = 6 + 10 = 16.
 import java.io.*;
 import java.util.*;
 
-public class GFG07 {
+class GFG07 {
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));

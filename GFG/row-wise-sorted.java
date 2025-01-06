@@ -35,7 +35,7 @@ class GFG05 {
             }
             int target = sc.nextInt();
 
-            Solution x = new Solution();
+            Solution05 x = new Solution05();
 
             if (x.searchRowMatrix(matrix, target))
                 System.out.println("true");
