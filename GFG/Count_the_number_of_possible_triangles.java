@@ -30,7 +30,7 @@ class GFG21 {
             for (int i = 0; i < str.length; i++) {
                 arr[i] = Integer.parseInt(str[i]);
             }
-            System.out.println(new Solution()21.countTriangles(arr));
+            System.out.println(Solution21.countTriangles(arr));
             System.out.println("~");
         }
     }
