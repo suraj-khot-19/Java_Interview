@@ -20,11 +20,20 @@ public class hashmap_only_keys_print {
         for (String key : keys){
             System.out.println(key);
         }
+
+        //using both
+        for (String key : keys){
+            System.out.println(key + "-"+ map.get(key));
+        }
     }
     /*
     [Suraj, Zoho, Sonya]
     Suraj
     Zoho
     Sonya
-     */
+
+    Suraj-82
+    Zoho-90
+    Sonya-80
+    */
 }
