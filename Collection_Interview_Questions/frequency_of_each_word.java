@@ -1,3 +1,4 @@
+//Write a Java program to count the frequency of each word in a string using a HashMap.
 package Collection_Interview_Questions;
 
 import java.util.HashMap;
